@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Share+Tech+Mono');
+
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, a, b, abbr, acronym, big, cite, code, del, em, i, ins, small, strike, strong, sub, sup, u, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     background: transparent;
     font-size: 100%;
@@ -20,9 +25,16 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, a, b, ab
 }
 
 header h1{
-    font
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
 }
 
+#header-container p{
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
 .home #content h1 {
     color: #a2a84b;
     font-size: 1.278em;
