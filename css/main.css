@@ -282,11 +282,11 @@ footer {
 }
 
 
-
-@media screen and (max-width: 780px){
+@media screen and (max-width: 774px){
 body {
     background-position: right -320px;
   }
+
 #container, header, nav {
     margin-bottom: 5%;
     }
@@ -309,6 +309,12 @@ body {
 .home #content p {
     display: inline;
     }
+
+nav ul li {
+    display: block;
+    margin-right: 0;
+  }
+
 }
 
 
