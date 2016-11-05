@@ -264,10 +264,28 @@ footer {
 #main .post {
     margin-bottom: 25px;
     }
+}
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 982px)
+{
+    body {
+    background-position: right -320px;
+  }
+  .home #content p {
+    display: inline;
+    }
+    .home #content h1 img{
+    max-width:100%;
+    height: auto;
+    float: center;
+    }
+}
+
+
+
+@media screen and (max-width: 780px){
 body {
-    background-position: right -220px;
+    background-position: right -320px;
   }
 #container, header, nav {
     margin-bottom: 5%;
@@ -288,6 +306,9 @@ body {
     float: left;
     }
 
+.home #content p {
+    display: inline;
+    }
 }
 
 
@@ -295,6 +316,10 @@ body {
 body {
     background-position: right -220px;
   }
+
+header h1 {
+    line-height: 50px;
+}
 #container, header, nav {
     margin-bottom: 5%;
     }
