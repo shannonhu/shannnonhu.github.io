@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Coiny|Trirong');
+
+/*#contactme {
+  display: table-cell;
+  vertical-align: middle;
+}*/
+
+#contactme h1 {
+  font-family: 'Trirong', serif;;
+  letter-spacing: 0.1618em;
+  line-height: 2.618em;
+  font-size: 35px;
+  text-align: center;
+/*  text-shadow: -1px -1px 0px #444, 1px -1px 1px #444, -1px 1px 1px #444, 1px 1px 0px #444;
+*/}
+
+#contactme p{
+  font-size: 15px;
+  text-align: center;
+}
+
+#contactme span {
+    color: #2ecc71;
+    text-transform:lowercase;
+    text-align: center;
+  }

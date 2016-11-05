@@ -1,0 +1,327 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, a, b, abbr, acronym, big, cite, code, del, em, i, ins, small, strike, strong, sub, sup, u, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+#header-container, #page{
+    width: auto;
+    max-width: 960px;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.home #content h1 {
+    color: #a2a84b;
+    font-size: 1.278em;
+    text-align: right;
+    float: left;
+    font: 300 1.556em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+
+.home #content h1 img{
+    height: 350px;
+    width:500px;
+    margin-right: 30px;
+/*    float:left;
+*/}
+
+.home #content h2 {
+    color: #a2a84b;
+    font-size: 1.278em;
+    text-align: right;
+    font: 300 1.556em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+
+#container {
+    padding-top: 120px;
+}
+
+#content {
+    font-size: 1.8em;
+    line-height: 1.6em;
+}
+
+header {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    display: -webkit-inline-box;
+    font-size: 2.75em;
+    opacity: 1;
+    padding: 0.35em 1em;
+    position: relative;
+    z-index: 1;
+
+    line-height: 1.75em
+    color: #f5f5f3;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "calluna"
+}
+
+
+/* Responsive full page background image thanks to:https://css-tricks.com/perfect-full-page-background-image/
+*/
+body {
+    color: #333;
+    background: #fff url(../images/floral-bg.png) no-repeat right top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 817px auto;
+    font: .625em/1.5em "Crimson Text", Georgia, "Times New Roman", Times, serif;
+}
+
+
+div {
+    display: block;
+}
+
+a:link {
+    color: #a2a84b;
+}
+
+/* Horizontal Top Responsive Navigation Bar */
+nav {
+    font: 300 1.5em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    border: 1px solid #a2a84b;
+    border-width: 1px 0;
+    margin: 85px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px 0 0;
+
+}
+
+.post h1
+{
+    text-align: left;
+    margin-bottom: 0;
+    font: 300 1.556em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    color: #a2a84b;
+}
+
+.post img{
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+#content .optin {
+    clear: both;
+    background: transparent url(../images/leaf-divider.png) no-repeat center top;
+    background-size: 960px auto;
+    text-align: center;
+    padding: 80px 0 45px 0;
+/*    border-bottom: 1px solid #d1d4a3;
+*/    
+    margin: 50px 0;
+}
+
+
+img.projects-thumbnail {
+    width: 320px;
+    height: 200px;
+}
+
+.thumb-image {
+   position: relative;
+   height: 320px;
+   width:200px;
+/*   width: 100%; /* for IE 6 */
+}
+
+.thumb-image:hover {
+  opacity: .9;
+  text-decoration: none;
+}
+
+.optin ul li {
+    float: left;
+}
+
+.home #content ul.feature-buttons li.book a {
+    background-image: url(../images/calit2.jpg);
+}
+
+.home #content ul.feature-buttons li.speaking a {
+    background-image: url(../images/CS.jpg);
+}
+
+.home #content ul.feature-buttons li a:hover {
+    opacity: .9;
+    text-decoration: none;
+}
+
+.home #content ul.feature-buttons li a {
+    display: block;
+    background: #000 none no-repeat center top;
+    background-size: 100% auto;
+    color: #fff;
+    font: 300 1.278em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 26% 0;
+}
+
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+
+.home #content ul.feature-buttons li:first-child {
+    margin-right: 4%;
+}
+
+.home #content ul.feature-buttons li {
+    background-color: #231f20;
+    width: 48%;
+    float: left;
+}
+
+#content li {
+    margin-bottom: 1em;
+}
+
+footer {
+    color: black;
+    clear: both;
+    font: 300 1.5em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 15px;
+
+}
+
+#footer-container {
+    color: black;
+    clear: both;
+    font: 300 1.5em/1.3em "futura-pt", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 15px;
+}
+
+
+/* View Page in different break point*/
+@media screen and (max-width: 1020px){
+#main .post {
+    margin-bottom: 25px;
+    }
+
+@media screen and (max-width: 768px){
+body {
+    background-position: right -220px;
+  }
+#container, header, nav {
+    margin-bottom: 5%;
+    }
+
+.home #content ul.feature-buttons li {
+    float: none;
+    width: auto;
+    }
+
+.home #content ul.feature-buttons li:first-child {
+    margin-right: 0;
+    }
+
+.home #content h1 img{
+    max-width:100%;
+    height: auto;
+    float: left;
+    }
+
+}
+
+
+@media screen and (max-width: 650px){
+body {
+    background-position: right -220px;
+  }
+#container, header, nav {
+    margin-bottom: 5%;
+    }
+
+.home #content ul.feature-buttons li {
+    float: none;
+    width: auto;
+    }
+
+.home #content ul.feature-buttons li:first-child {
+    margin-right: 0;
+    }
+
+.home #content h1 img{
+    max-width:100%;
+    height: auto;
+    float: left;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+body {
+    background-position: right -220px;
+  }
+
+.home #content h1 img{
+    max-width:100%;
+    height: auto;
+    float: left;
+    }
+}
+
+@media screen and (max-width: 580px){
+#container {
+    padding-top: 250px;
+  }
+}
+
+@media screen and (max-width: 580px){
+nav ul li {
+    display: block;
+    margin-right: 0;
+  }
+}
