@@ -19,6 +19,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, a, b, ab
     margin: 0 auto;
 }
 
+header h1{
+    font
+}
 
 .home #content h1 {
     color: #a2a84b;
@@ -108,7 +111,7 @@ div {
 }
 
 a:link {
-    color: #a2a84b;
+    color: #3b5998;
 }
 
 /* Horizontal Top Responsive Navigation Bar */
